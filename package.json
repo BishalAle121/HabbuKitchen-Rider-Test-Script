@@ -1,0 +1,25 @@
+{
+  "name": "habbu-kitchen-test-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "login_test": "mocha --reporter mochawesome Test_Cases/Unit/Login_Test/login_Test_Case.js",
+    "home_test": "mocha --reporter mochawesomeTest_Cases/Unit/home_Test/home_Test.js",
+    "notification_test": "mocha --reporter mochawesome Test_Cases/Unit/Notification_Test/notification_Test.js",
+    "goonline_selectvehicle": "mocha --reporter mochawesome Test_Cases/Unit/GoOnline_SelectVehicle/goonline_selectVehicle_test.js",
+    "completedelivery": "mocha --reporter mochawesome Test_Cases/Unit/CompleteDelivery/completeDelivery.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "mochawesome": "^7.1.3",
+    "webdriverio": "^9.12.5"
+  },
+  "dependencies": {
+    "appium-flutter-finder": "^0.2.0",
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0"
+  }
+}
